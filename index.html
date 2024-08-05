@@ -15,7 +15,7 @@
         <img src="img/img2.png" width="50px">
     </div>
     <div id="a3">
-        <img src="img/img2.png" width="200">
+        <img src="img/img2.png" width="200" id="animate">
     </div>
     <div id="a4">
         <img src="img/img4.png" width="50px">
@@ -55,6 +55,15 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 60px;
+        animation: moveUpDown 4s infinite;
+    }
+    @keyframes moveUpDown {
+        0%, 100% {
+            transform: translateY(10);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
     }
     #a4{
         display: flex;
