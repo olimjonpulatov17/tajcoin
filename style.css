@@ -12,7 +12,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 0px;
     color: #ffffff;
     font-size: 50px;
     gap: 5px;
@@ -21,7 +21,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 #img2:hover{
     transform: scale(1.04);
