@@ -8,8 +8,11 @@
 </head>
 <body>
     <div id="a1">
-        <p>Taj-Coin</p>
-        <p>1 / 10</p>
+        <p>Taj<span>Coin</span></p>
+    </div>
+    <div id="a5">
+        <p>1</p>
+        <img src="img/img7.png" width="35px">
     </div>
     <div id="a2">
         <p>0</p>
@@ -34,18 +37,24 @@
         background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(81,0,109,1) 70%);
         background-repeat: no-repeat;
         font-family: Arial;
+        font-weight: 900;
     }
     #a1{
         color: #ffffff;
-        font-size: 25px;
+        font-size: 35px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         margin: 30px;
-        box-shadow:  rgba(81,0,109,1) 1px 10px 10px 0px;
+        box-shadow:  rgba(81,0,109,1) 0px 10px 10px 0px;
         padding: 30px;
         height: 10px;
         border-radius: 15px;
+        text-align: center;
+    }
+    #a1 span{
+        color: gold;
+        margin: 5px;
     }
     #a2{
         display: flex;
@@ -86,12 +95,21 @@
         padding: 10px;
         border-radius: 15px;
     }
-    #a5 p{
-        font-size: 20px;
+    #a5{
         color: #ffffff;
-        border: 2px solid #ffffff;
-        padding: 10px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 1346px;
+        box-shadow:  rgba(81,0,109,1) 0px 10px 10px 0px;
+        padding: 30px;
+        margin: 30px;
+        height: 10px;
         border-radius: 15px;
+        width: 63px;
+        gap: 10px;
     }
     footer{
         display: flex;
