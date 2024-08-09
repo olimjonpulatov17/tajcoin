@@ -30,10 +30,10 @@
         <p>100 / 100</p>
     </div>
     <footer>
-        <button><img src="img/img9.png" width="50"></button>
-        <button><img src="img/img10.png" width="50"></button>
-        <button><img src="img/img11.png" width="50"></button>
-        <button><img src="img/img12.png" width="50"></button>
+        <button><a href="https://smm-global.ru/"><img src="img/img9.png" width="50"></a></button>
+        <button><a href="https://smm-global.ru/"><img src="img/img10.png" width="50"></a></button>
+        <button><a href="https://smm-global.ru/"><img src="img/img11.png" width="50"></a></button>
+        <button><a href="https://smm-global.ru/"><img src="img/img12.png" width="50"></a></button>
     </footer>
 <style>
     body{
@@ -87,15 +87,12 @@
     #a4{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         color: #ffffff;
-        font-size: 20px;
+        font-size: 15px;
         gap: 10px;
-    }
-    #a4 p{
-        border: 2px solid #ffffff;
-        padding: 10px;
-        border-radius: 15px;
+        padding-bottom: 20px;
+        padding-left: 30px;
     }
     #a5{
         color: #ffffff;
@@ -127,14 +124,16 @@
         gap: 20px;
     }
     footer button{
-        width: 80px;
-        height: 10px;
         background: none;
         color: #ffffff;
         border: none;
-        padding: 15px;
-        font-size: 25px;
         border-radius: 15px;
+    }
+    footer img{
+        transition: transform 0.5s ease;
+    }
+    footer img:hover{
+        transform: scale(1.2);
     }
 </style>
 </body>
